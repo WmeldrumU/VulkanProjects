@@ -3,3 +3,8 @@
 ################################################################################
 
 /vulkan-tutorial/VulkanTest/VulkanTest.vcxproj.user
+/.vs
+/vulkan-tutorial/VulkanTest/x64/Debug
+/vulkan-tutorial/VulkanTest/VulkanTest.vcxproj.filters
+/vulkan-tutorial/VulkanTest/Debug
+/vulkan-tutorial/VulkanTest/.vs/VulkanTest/v16
