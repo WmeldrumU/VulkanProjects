@@ -69,6 +69,7 @@ private:
         vkGetPhysicalDeviceFeatures(device, &deviceFeatures);
         return deviceProperties.deviceType == VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU &&
             deviceFeatures.geometryShader;
+        //can also just return true in this use case
     }
 
     void pickPhysicalDevice() {
