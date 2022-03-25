@@ -426,6 +426,12 @@ private:
         pickPhysicalDevice();
         createLogicalDevice();
         createSwapChain();
+        createImageViews();
+        createGraphicsPipeline();
+    }
+
+    void createGraphicsPipeline() {
+
     }
 
     void mainLoop() {
